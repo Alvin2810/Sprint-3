@@ -10,8 +10,7 @@ h1,h2,h3,h4,p{
   color:
 }
 canvas{
-  margin-top: -20px;
-  width:270px;
+  width:230px;
   height:240px;
 }
 
@@ -21,6 +20,7 @@ canvas{
 }
 
 .title{
+  margin-top:-30px;
   text-align: center;
   display:grid;
   grid-template-columns: auto auto;
@@ -51,7 +51,7 @@ canvas{
   top: 30%;
   left:12%;
   width:75%;
-  background-color: white;
+  background-color: ghostwhite;
 }
 
 .category_selection1,.category_selection2,.input1, .input2{
@@ -107,12 +107,14 @@ canvas{
 
 #expense_total{
   font-size: 20px;
-  color:#c70d3a;
+   font-weight:500;
+  color:red;
 }
 
 #income_total{
   font-size: 20px;
-  color:#004a2f;
+  font-weight: 500;
+  color:green;
 }
 
 #income_added2{
@@ -125,12 +127,12 @@ canvas{
   font-weight:bold;
 }
 #income_total1{
-  color:#004a2f;
+  color:green;
   font-weight:bold;
 }
 
 #expense_total1{
-  color:#c70d3a;
+  color:red;
   font-weight:bold;
 }
 #expense1{
@@ -138,18 +140,18 @@ canvas{
   color:white;
   padding:15px;
   border-radius:50%;
+  border: 1px solid lightblue
 }
-#expense1:hover{
+#expense1:hover, #income1:hover,#summary:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-#income1:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
+
 #income1{
   background-color:#004a2f;
   color:white;
   padding:15px;
   border-radius:50%;
+  border: 1px solid lightblue
 }
 
 #summary{
@@ -157,4 +159,5 @@ canvas{
   color:black;
   padding:15px;
   border-radius:50%;
+  border: 1px solid lightblue
 }
