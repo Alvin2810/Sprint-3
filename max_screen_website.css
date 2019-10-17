@@ -1,6 +1,14 @@
 body{
   margin-top:25px;
-  background-color:pink;
+  background-color:lightblue;
+}
+h1{
+  padding:10px;
+  margin: 20px 500px 10px 500px;
+  border-radius: 25px;
+  color: white;
+  background-color: #00BFFF;
+
 }
 
 h1,h2,h3,h4,p{
@@ -61,6 +69,10 @@ canvas{
   text-align: center;
 }
 
+#total{
+  color: #0000CD;
+}
+
 #transaction_summary{
     display:none;
     position: absolute;
@@ -98,4 +110,71 @@ canvas{
   height: 100%;
   z-index: 10;
   background-color:pink;
+}
+
+#add_income{
+  background-color:lightgreen;
+}
+#add_expense {
+  background-color: #c70d3a;
+}
+
+#expense_total{
+  font-size: 20px;
+   font-weight:500;
+  color:red;
+}
+
+#income_total{
+  font-size: 20px;
+  font-weight: 500;
+  color:green;
+}
+
+#income_added2{
+  color:#004a2f;
+  font-weight:bold;
+}
+
+#expense_added2{
+  color:#c70d3a;
+  font-weight:bold;
+}
+#income_total1{
+  color:green;
+  font-weight:bold;
+}
+
+#expense_total1{
+  color:red;
+  font-weight:bold;
+}
+#expense1{
+  background-color:#c70d3a;
+  color:white;
+  font-weight: bold;
+  padding:25px;
+  border-radius:25px;
+  border: 1px solid lightblue
+}
+
+#income1{
+  background-color:#004a2f;
+  color:white;
+  font-weight: bold;
+  padding:25px;
+  border-radius:25px;
+  border: 1px solid lightblue
+}
+
+#summary{
+  background-color:orange;
+  color:black;
+  font-weight: bold;
+  padding:25px;
+  border-radius:25px;
+  border: 1px solid lightblue
+}
+#expense1:hover, #income1:hover,#summary:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }

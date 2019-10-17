@@ -147,7 +147,7 @@ canvas{
   background-color:#c70d3a;
   color:white;
   padding:15px;
-  border-radius:50%;
+  border-radius:25px;
   border: 1px solid lightblue
 }
 
@@ -155,7 +155,7 @@ canvas{
   background-color:#004a2f;
   color:white;
   padding:15px;
-  border-radius:50%;
+  border-radius:25px;
   border: 1px solid lightblue
 }
 
@@ -163,7 +163,7 @@ canvas{
   background-color:orange;
   color:black;
   padding:15px;
-  border-radius:50%;
+  border-radius:25px;
   border: 1px solid lightblue
 }
 #expense1:hover, #income1:hover,#summary:hover {
