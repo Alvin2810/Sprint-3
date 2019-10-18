@@ -1,6 +1,6 @@
 body{
   margin-top:10px;
-  background-color:lightblue;
+  background-color:#add8e6;
 }
 h1{
   padding:10px;
@@ -32,6 +32,7 @@ canvas{
 
 .sum{
   margin-top: 70px;
+  text-decoration: underline;
 }
 
 .amount{
@@ -115,32 +116,33 @@ canvas{
 
 #expense_total{
   font-size: 20px;
-   font-weight:500;
-  color:red;
+   font-weight:bold;
+
+  color:#800000;
 }
 
 #income_total{
   font-size: 20px;
-  font-weight: 500;
-  color:green;
+  font-weight: bold;
+  color:#004700;
 }
 
 #income_added2{
-  color:#004a2f;
+  color:#004700;
   font-weight:bold;
 }
 
 #expense_added2{
-  color:#c70d3a;
+  color:#800000;
   font-weight:bold;
 }
 #income_total1{
-  color:green;
+  color:#004700;
   font-weight:bold;
 }
 
 #expense_total1{
-  color:red;
+  color:#800000;
   font-weight:bold;
 }
 #expense1{
